@@ -104,9 +104,6 @@ export const getMe = async (req, res) => {
     res.json({
       ...userData,
     });
-    res.json({
-      success: true,
-    });
   } catch (err) {
     console.log(err);
   }
